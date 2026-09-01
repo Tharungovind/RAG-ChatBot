@@ -1,6 +1,6 @@
-# Basic RAG PDF Chatbot
+# RAG PDF Chatbot
 
-A basic Retrieval-Augmented Generation (RAG) chatbot built from scratch using Python.
+A  Retrieval-Augmented Generation (RAG) chatbot built from scratch using Python.
 
 This project demonstrates the core architecture of a RAG system without using frameworks such as LangChain or LlamaIndex. The application reads a PDF document, extracts its text, splits the text into chunks, generates embeddings, stores the embeddings in a FAISS vector index, retrieves the most relevant chunks for a user query, and uses an LLM to generate a context-grounded answer.
 
