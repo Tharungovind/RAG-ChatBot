@@ -44,3 +44,33 @@ LLM + Retrieved Context
      |
      v
 Final Answer
+
+
+
+Key Features
+- PDF document ingestion
+- Text extraction using pypdf
+- Character-based text chunking
+- Chunk overlap for improved context preservation
+- Semantic embedding generation
+- 384-dimensional embeddings using Sentence Transformers
+- FAISS vector similarity search
+- Top-K document retrieval
+- Query embedding
+- Context-aware LLM responses
+- Environment-variable based API key management
+- Command-line interface
+
+
+Technology Stack
+Component	Technology
+Language	Python
+PDF Processing	pypdf
+Embeddings	Sentence Transformers
+Embedding Model	all-MiniLM-L6-v2
+Vector Search	FAISS
+Numerical Processing	NumPy
+LLM	OpenAI API
+Environment Variables	python-dotenv
+IDE	VS Code
+Version Control	Git / GitHub
